@@ -275,6 +275,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-seo-tag
   jekyll-theme-image-grid
   tzinfo (~> 1.2)
   tzinfo-data

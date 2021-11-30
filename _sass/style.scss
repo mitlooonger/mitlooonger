@@ -1,11 +1,11 @@
 // colors (edit these to change the colors of parts of the site's design)
 $body-bg-color: yellow;	// background color
-$header-title-color: white;	// color of title of website
+$header-title-color: black;	// color of title of website
 $header-bg-color: green;	// color of nav bar
-$footer-color: silver;	// color of footer icons
-$post-title-color: white;	// color of post titles
-$post-date-color: white;	// color of post dates
-$page-title-color: white; // color of page titles
+$footer-color: black;	// color of footer icons
+$post-title-color: black;	// color of post titles
+$post-date-color: black;	// color of post dates
+$page-title-color: black; // color of page titles
 
 body{
 	background-image:url("https://previews.123rf.com/images/creativenature/creativenature1905/creativenature190500106/122621865-aerial-scene-of-yellow-wildflowers-meadow-buttercup-ranunculus-acris-blooming-in-agricultural-grassl.jpg");
@@ -13,7 +13,7 @@ body{
 
 .header .container {
   	padding-top: 1em;
-		padding-bottom: 3em; // edit to move nav bar up or down
+		padding-bottom: 1em; // edit to move nav bar up or down
 }
 
 .navbar-light .navbar-brand{
@@ -45,12 +45,12 @@ body{
 
 .grid-masonry {
 	border: none;
-	padding-top: 0.5em;
+	padding-top: 6em;
 }
 
 .image-container{
 	display: inline-block;
-	padding: 0.5em;
+	padding: 2em;
 }
 
 @media (min-width: 576px){

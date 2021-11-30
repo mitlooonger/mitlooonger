@@ -1,14 +1,16 @@
 // colors (edit these to change the colors of parts of the site's design)
 $body-bg-color: yellow;	// background color
-$header-title-color: black;	// color of title of website
+$header-title-color: yellow;	// color of title of website
 $header-bg-color: green;	// color of nav bar
-$footer-color: black;	// color of footer icons
+$footer-color: white;	// color of footer icons
 $post-title-color: black;	// color of post titles
-$post-date-color: black;	// color of post dates
-$page-title-color: black; // color of page titles
+$post-date-color: white;	// color of post dates
+$page-title-color: white; // color of page titles
 
 body{
 	background-image:url("https://previews.123rf.com/images/creativenature/creativenature1905/creativenature190500106/122621865-aerial-scene-of-yellow-wildflowers-meadow-buttercup-ranunculus-acris-blooming-in-agricultural-grassl.jpg");
+	padding-top: 2
+	em;
 }
 
 .header .container {
@@ -18,10 +20,11 @@ body{
 
 .navbar-light .navbar-brand{
 	color: $header-title-color;
+		font-size: 4em;
 }
 
 .navbar {
-	background-color: #89b00b;
+	background-color: #yellow;
 }
 
 .footer{
@@ -38,9 +41,9 @@ body{
 	width: 1em;
 }
 
-.grid-square-og {
+.grid-square-cropped {
 	height: 100%;
-    object-fit: contain;
+  object-fit: cover;
 }
 
 .grid-masonry {
@@ -51,6 +54,7 @@ body{
 .image-container{
 	display: inline-block;
 	padding: 2em;
+
 }
 
 @media (min-width: 576px){
@@ -88,6 +92,7 @@ body{
 .post-title{
 	font-size: 1.5em;
 	color: $post-title-color;
+
 }
 
 .post-date{
@@ -105,11 +110,14 @@ body{
 }
 
 .post-text-container{
-	margin-top: 0.5em;	// edit to move post title/date/content up or down
+	margin-top: 3em;
+	padding: 1em;
+	background-color: #fcfcfa;
+	mix-blend-mode: normal;
 }
 
 .page-title{
-	font-size: 2em;
+	font-size: 4em;
 	color: $page-title-color;
 	margin-bottom: 0.5em;
 }

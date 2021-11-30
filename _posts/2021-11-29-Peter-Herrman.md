@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Peter Herrman
+title: Morning in the Tiergarten, Peter Herrman
 show_title: true (optional)
+tag: [Art, Painting, Contemporary-Art, Morning, Trees]
 ---
 
-Paiting, contemporary art, 2010, dogs in Tiergarten.
+Pile: Contemporary Art

@@ -1,0 +1,115 @@
+// colors (edit these to change the colors of parts of the site's design)
+$body-bg-color: yellow;	// background color
+$header-title-color: white;	// color of title of website
+$header-bg-color: green;	// color of nav bar
+$footer-color: silver;	// color of footer icons
+$post-title-color: white;	// color of post titles
+$post-date-color: white;	// color of post dates
+$page-title-color: white; // color of page titles
+
+body{
+	background-image:url("https://previews.123rf.com/images/creativenature/creativenature1905/creativenature190500106/122621865-aerial-scene-of-yellow-wildflowers-meadow-buttercup-ranunculus-acris-blooming-in-agricultural-grassl.jpg");
+}
+
+.header .container {
+  	padding-top: 1em;
+		padding-bottom: 3em; // edit to move nav bar up or down
+}
+
+.navbar-light .navbar-brand{
+	color: $header-title-color;
+}
+
+.navbar {
+	background-color: #89b00b;
+}
+
+.footer{
+	margin-top: 4em;
+}
+
+.social-media-list li{
+	display: inline;
+	margin-right: 1em;
+}
+
+.svg-icon{
+	fill: $footer-color;
+	width: 1em;
+}
+
+.grid-square-og {
+	height: 100%;
+    object-fit: contain;
+}
+
+.grid-masonry {
+	border: none;
+	padding-top: 0.5em;
+}
+
+.image-container{
+	display: inline-block;
+	padding: 0.5em;
+}
+
+@media (min-width: 576px){
+	.image-container {
+	  	height: 183px;
+	  	width: 183px;
+	  	overflow: hidden;
+	}
+}
+
+@media (min-width: 768px){
+	.image-container {
+	  	height: 240px;
+	  	width: 240px;
+	  	overflow: hidden;
+	}
+}
+
+@media (min-width: 992px){
+	.image-container {
+	  	height: 322px;
+	  	width: 322px;
+	  	overflow: hidden;
+	}
+}
+
+@media (min-width: 1200px){
+	.image-container {
+	  	height: 380px;
+	  	width: 380px;
+	  	overflow: hidden;
+	}
+}
+
+.post-title{
+	font-size: 1.5em;
+	color: $post-title-color;
+}
+
+.post-date{
+	font-size: 0.9em;
+	color: $post-date-color;
+}
+
+.post-content{
+	margin-top: 1em;
+}
+
+.post img{
+	padding-top: 3em;
+	padding-bottom: 0.5em;
+}
+
+.post-text-container{
+	margin-top: 0.5em;	// edit to move post title/date/content up or down
+}
+
+.page-title{
+	font-size: 2em;
+	color: $page-title-color;
+	margin-bottom: 0.5em;
+}

@@ -6,5 +6,8 @@
 
   <link rel='stylesheet' href='{{ '/assets/style.css' | relative_url }}'>
 
-  {% seo %}
+  <if site.tags != "" >
+    < include collecttags.html >
+  < endif >
+  < seo >
 </head>

@@ -32,6 +32,10 @@ remote_theme: jirrian/jekyll-theme-image-grid@main
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
 # settings for image grid homepage
 grid_settings:
   show_all_images: true #true - displays all images in grid page, false - only show first (file name of image sorted alphabetically) image of post in grid page

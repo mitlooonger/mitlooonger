@@ -6,4 +6,8 @@ tag: [Art, Painting, Contemporary-Art, Morning, Trees]
 show_tag: true (optional)
 ---
 
+<<<<<<< Updated upstream
 Pile: Contemporary Art
+=======
+Painting, contemporary art, 2010, dogs in Tiergarten.
+>>>>>>> Stashed changes

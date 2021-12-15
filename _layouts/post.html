@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div class="post">
+<div class="row justify-content-center">
+	<div class="col-lg-6 col-md-6 col-">
+
+	    {% assign post_filename = page.path | split: "." | first | remove_first: "_posts/" %}
+	    {% capture post_images_folder %}/_images/post_images/{{ post_filename }}{% endcapture %}
+	    {% assign post_images_array = "" | split: ',' %}
+
+	    {% for image in site.static_files %}
+	    	{% assign image_folder = image.path | split: "/" | pop | join: "/" %}
+    		{% if image_folder == post_images_folder %}
+	    		{% assign post_images_array = post_images_array | push: image %}
+			{% endif %}
+		{% endfor %}
+				
+		{% for post_image in post_images_array %}
+			<img src="{{ post_image.path | relative_url }}" class="img-fluid" alt="{{ post.title }}">
+		{% endfor %}
+
+	</div>
+	{% assign content = page.content | strip_newlines %}
+	<!-- if there is post content -->
+	{% if content != "" %}
+	<div class="col-lg-6 col-md-6 col-">
+		<div class="post-text-container">
+			{% if site.post_settings.show_title and page.show_title != false %}
+				<div class="post-title">{{ page.title }}</div>
+			{% elsif site.post_settings.show_title == false and page.show_title %}
+				<div class="post-title">{{ page.title }}</div>
+			{% endif %}
+			{% if site.post_settings.show_date == true %}
+				<div class="post-date">{{ page.date | date: '%d %B %Y' }}</div>
+			{% endif %}
+			<div class="post-content">{{ content }}</div>
+		</div>
+	</div>
+	{% endif %}
+</div>
+<!-- if there is no post content but a post title -->
+{% if content == "" %}
+	<div class="row justify-content-center">
+		<div class="col-lg-6 col-md-6 col-">
+			<div class="post-text-container">
+				{% if site.post_settings.show_title and page.show_title != false %}
+					<div class="post-title">{{ page.title }}</div>
+				{% elsif site.post_settings.show_title == false and page.show_title %}
+					<div class="post-title">{{ page.title }}</div>
+				{% endif %}
+				{% if site.post_settings.show_date == true %}
+					<div class="post-date">{{ page.date | date: '%d %B %Y' }}</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+{% endif %}
+</div>

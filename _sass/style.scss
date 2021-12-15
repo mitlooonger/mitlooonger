@@ -25,6 +25,10 @@ body{
 		font-size: 4em;
 }
 
+.row{
+	background-color:pink;
+}
+
 .navbar {
 	background-color: #yellow;
 }
@@ -55,37 +59,16 @@ body{
 
 .image-container{
 	display: inline-block;
-	padding: 2em;
+	padding: 8em;
+	width: 700px;
+	height: 700px;
 }
 
-@media (min-width: 576px){
-	.image-container {
-	  	height: 183px;
-	  	width: 183px;
-	  	overflow: hidden;
-	}
-}
-
-@media (min-width: 768px){
-	.image-container {
-	  	height: 240px;
-	  	width: 240px;
-	  	overflow: hidden;
-	}
-}
-
-@media (min-width: 992px){
-	.image-container {
-	  	height: 322px;
-	  	width: 322px;
-	  	overflow: hidden;
-	}
-}
 
 @media (min-width: 1200px){
 	.image-container {
-	  	height: 380px;
-	  	width: 380px;
+	  	height: 480px;
+	  	width: 480px;
 	  	overflow: hidden;
 	}
 }

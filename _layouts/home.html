@@ -19,7 +19,7 @@ layout: default
 	    			{% assign post_images_array = post_images_array | push: image %}
 				{% endif %}
 			{% endfor %}
-				
+
 			{% for post_image in post_images_array %}
 				{% if site.grid_settings.display == "masonry" %}
 					<div class="card grid-masonry">

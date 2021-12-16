@@ -7,7 +7,8 @@ $post-title-color: black;	// color of post titles
 $post-date-color: white;	// color of post dates
 $page-title-color: white; // color of page titles
 
-body{
+body{	background-image:url("https://previews.123rf.com/images/creativenature/creativenature1905/creativenature190500106/122621865-aerial-scene-of-yellow-wildflowers-meadow-buttercup-ranunculus-acris-blooming-in-agricultural-grassl.jpg");
+
 	padding-top: 2em;}
 
 .header .container {
@@ -15,8 +16,9 @@ body{
 		padding-bottom: 1em; // edit to move nav bar up or down
 }
 
-.landscape-container {
-	background-color: blue;
+.container {
+	padding: 40px;
+	margin: 15px;
 }
 
 .navbar-light .navbar-brand{
@@ -25,7 +27,9 @@ body{
 }
 
 .row{
-	background-color:pink;
+	display: grid;
+	grid-template-columns: 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
+	grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
 }
 
 .navbar {

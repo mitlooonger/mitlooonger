@@ -2,7 +2,7 @@
 layout: post
 title: Cumulative Radiation
 show_title: true (optional)
-tag: [climate data sunlight seasonal metrics]
+tags: [climate data, sunlight, seasonal metrics]
 show_tag: true (optional)
 ---
 

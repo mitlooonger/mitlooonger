@@ -15,7 +15,7 @@ layout: default
 	    		{% assign post_images_array = post_images_array | push: image %}
 			{% endif %}
 		{% endfor %}
-				
+
 		{% for post_image in post_images_array %}
 			<img src="{{ post_image.path | relative_url }}" class="img-fluid" alt="{{ post.title }}">
 		{% endfor %}
@@ -38,6 +38,12 @@ layout: default
 		</div>
 	</div>
 	{% endif %}
+	<span>[
+	  {% for tag in page.tags %}
+	    {% capture tag_name %}{{ tag }}{% endcapture %}
+	    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+	  {% endfor %}
+	]</span>
 </div>
 <!-- if there is no post content but a post title -->
 {% if content == "" %}

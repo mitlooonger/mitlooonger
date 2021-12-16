@@ -2,7 +2,7 @@
 layout: post
 title: Tree Series, Charles Gains
 show_title: true (optional)
-tag: [Painting, Contemporary-Art, Second-Perspective, Trees, Walking]
+tags: [painting, contemporary-art, second-perspective, trees, walking]
 show_tag: true
 ---
 Pile: Trees

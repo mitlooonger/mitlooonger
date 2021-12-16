@@ -164,6 +164,7 @@ GEM
     jekyll-swiss (1.0.0)
     jekyll-tagging (1.1.0)
       nuggets
+    jekyll-tags (0.0.2.1)
     jekyll-theme-architect (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
@@ -278,8 +279,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-seo-tag
   jekyll-tagging
+  jekyll-tags
   jekyll-theme-image-grid
   tzinfo (~> 1.2)
   tzinfo-data

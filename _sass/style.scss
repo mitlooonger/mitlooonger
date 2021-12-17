@@ -2,12 +2,14 @@
 $body-bg-color: yellow;	// background color
 $header-title-color: yellow;	// color of title of website
 $header-bg-color: green;	// color of nav bar
-$footer-color: white;	// color of footer icons
+$footer-color: green;	// color of footer icons
 $post-title-color: black;	// color of post titles
 $post-date-color: white;	// color of post dates
 $page-title-color: white; // color of page titles
 
-body{
+
+
+>>>>>>> 65a807308d28ead809d83e5985f10152be4561f0
 	padding-top: 2em;}
 
 .header .container {
@@ -37,6 +39,7 @@ body{
 
 .footer{
 	padding-top: 4em;
+	background-color: #fcfcfa;
 }
 
 .social-media-list li{

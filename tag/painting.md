@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: trees"
-tag: trees
+title: "Tag: painting"
+tag: painting
 robots: noindex
 ---

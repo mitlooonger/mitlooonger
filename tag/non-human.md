@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: trees"
-tag: trees
+title: "Tag: non-human"
+tag: non-human
 robots: noindex
 ---

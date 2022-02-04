@@ -31,6 +31,7 @@ github_username:  mitlooonger
 remote_theme: jirrian/jekyll-theme-image-grid@main
 plugins:
   - jekyll-feed
+  - post_generator
 
 # settings for image grid homepage
 grid_settings:
@@ -45,6 +46,12 @@ post_settings:
 include:
   - _images
 
+
+  - scope:
+      type: categories  # select all category pages
+    values:
+      layout: category_page
+      permalink: categories/:category/
   #!/usr/bin/env python
 
 # Exclude from processing.

@@ -5,8 +5,14 @@
 layout: default
 ---
 
+<!-- {% if site.tags!="" %}
+   {%include collecttags.html%}
+{%endif%} -->
+
+<body>
 {% for row in site.data.data %}
   <div>
     "{{row.Object}}"
   </div>
 {% endfor %}
+</body>

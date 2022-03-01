@@ -1,66 +1,35 @@
 // colors (edit these to change the colors of parts of the site's design)
-$body-bg-color: yellow;	// background color
-$header-title-color: yellow;	// color of title of website
-$header-bg-color: green;	// color of nav bar
-$footer-color: green;	// color of footer icons
+$body-bg-color: #e1f7e4;	// background color
+$header-title-color: rgb(24, 77, 35);	// color of title of website
+$header-bg-color: #e1f7e4;	// color of nav bar
+$footer-color: #e1f7e4;	// color of footer icons
 $post-title-color: black;	// color of post titles
-$post-date-color: white;	// color of post dates
-$page-title-color: white; // color of page titles
+$page-title-color: #e1f7e4; // color of page titles
 
 
-body {
 
 .body {
-	padding-top: 2em;}
+	padding-top: 2em;
 	color: #e1f7e4;
+	}
 
 	.header .container {
   	padding-top: 1em;
-		padding-bottom: 1em; // edit to move nav bar up or down
-}
+		padding-bottom: 2em; // edit to move nav bar up or down
+		color: #e1f7e4
+	}
 .header {
 	background-color: #e1f7e4;
 	padding: 20px;
 	text-align: center;
 
-/* Style the top navigation bar */
+/* Style top navigation bar */
 .topnav {
 	overflow: hidden;
-	background-color: #333;
+	background-color: #e1f7e4;
   }
-  
-  /* Style the topnav links */
-  .topnav a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-	background-color: #ddd;
-	color: black;
-  }
-  </style>
-  </head>
-  <body>
-  
-  <div class="header">
-	<h1>Header</h1>
-  </div>
-  
-  <div class="topnav">
-	<a href="#">Link</a>
-	<a href="#">Link</a>
-	<a href="#">Link</a>
-  </div>
-  
-  </body>
-  </html>
-  
+
+/* Navbar Vertical Test */   
 .container {
 	padding: 40px;
 	margin: 15px;
@@ -71,22 +40,24 @@ body {
 		font-size: 4em;
 }
 
+.navbar {
+	background-color: 225, 247, 228;
+}
+}
+.footer{
+	padding-top: 4em;
+	background-color: #e1f7e4;
+}
+
+/* Grid images test 
+
 .row{
 	display: grid;
 	grid-template-columns: 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
 	grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
 }
 
-.navbar {
-	background-color: 225, 247, 228;
-}
-
-.footer{
-	padding-top: 4em;
-	background-color: #fcfcfa;
-}
-
-.social-media-list li{
+/*.social-media-list li{
 	display: inline;
 	margin-right: 1em;
 }
@@ -133,24 +104,52 @@ body {
 	color: $post-date-color;
 }
 
-.post-content{
+	.post-content{
 	margin-top: 1em;
-}
+	}		
 
-.post img{
+	.post img{
 	margin-top: 3em;
 	padding-bottom: 0.5em;
-}
+	}
 
-.post-text-container{
+	.post-text-container{
 	margin-top: 3em;
 	padding: 1em;
-	background-color: #fcfcfa;
+	background-color: #e1f7e4;
 	mix-blend-mode: normal;
-}
+	}	
 
-.page-title{
+	.page-title{
 	font-size: 4em;
 	color: $page-title-color;
 	margin-bottom: 0.5em;
+	}
+
+}	*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #e1f7e4;
+  float: left;
+  width: 280px;
 }
+
+div.gallery:hover {
+  border: 40px solid #e1f7e4;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+div.adriana {
+	background-color: #e1f7e4;
+}
+

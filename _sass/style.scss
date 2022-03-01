@@ -1,9 +1,9 @@
 // colors (edit these to change the colors of parts of the site's design)
 $body-bg-color: #e1f7e4;	// background color
-$header-title-color: rgb(24, 77, 35);	// color of title of website
+$header-title-color: #184d23;	// color of title of website
 $header-bg-color: #e1f7e4;	// color of nav bar
 $footer-color: #e1f7e4;	// color of footer icons
-$post-title-color: black;	// color of post titles
+$post-title-color: green;	// color of post titles
 $page-title-color: #e1f7e4; // color of page titles
 
 
@@ -27,11 +27,12 @@ $page-title-color: #e1f7e4; // color of page titles
 .topnav {
 	overflow: hidden;
 	background-color: #e1f7e4;
+	text-align: right;
   }
 
 /* Navbar Vertical Test */   
 .container {
-	padding: 40px;
+	padding: 0px;
 	margin: 15px;
 }
 
@@ -49,15 +50,15 @@ $page-title-color: #e1f7e4; // color of page titles
 	background-color: #e1f7e4;
 }
 
-/* Grid images test 
+Grid images test 
 
 .row{
 	display: grid;
 	grid-template-columns: 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
 	grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
 }
-
-/*.social-media-list li{
+/* 
+.social-media-list li{
 	display: inline;
 	margin-right: 1em;
 }
@@ -129,7 +130,7 @@ $page-title-color: #e1f7e4; // color of page titles
 }	*/
 
 div.gallery {
-  margin: 5px;
+  margin: 10px;
   border: 1px solid #e1f7e4;
   float: left;
   width: 280px;

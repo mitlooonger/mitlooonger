@@ -1,4 +1,4 @@
-Title,Media,Pile,Tags,RelativePath - PileName/ItemName.extension,Where,Source
+Title,Media,Pile,Tags,RelativePath,Where,Source
 1798 Map,Image,1700s_Maps,,1700s_Maps/Map_PlanofBerlinandSurrounds_1798.png,https://drive.google.com/drive/folders/16YD6VSEWtTcZTWEsmkZzzBtV2EBKXr5h?usp=sharing,
 1743 Map,Image,1700s_Maps,,1700s_Maps/Map_Tiergarten_Berlin_1743.jpeg,https://drive.google.com/drive/folders/16YD6VSEWtTcZTWEsmkZzzBtV2EBKXr5h?usp=sharing,
 1885 Berlin Map,Image,1800s_Maps,,1800s_Maps/Berlin_1885.jpeg,https://drive.google.com/drive/folders/1UGuFbxhQM0ltC71BDio95-1aH7IL_79t?usp=sharing,
@@ -89,7 +89,7 @@ Guided Walk - Website,Link,Guided_Tours,,Guided_Tours/Heygo_walkThroughTheTierga
 1822 Ice Skating,Image,IceSkating,,IceSkating/1822_Koller_WinterFunInTheTentsInTiergarten.png,https://drive.google.com/drive/folders/1jzH3Zu88RrfriOQit_1rJRicRrTLcLiQ?usp=sharing,
 1909 Ice Skating,Image,IceSkating,,IceSkating/Corinth_IceSkatingRinkInTheTiergarten_1909.png,https://drive.google.com/drive/folders/1jzH3Zu88RrfriOQit_1rJRicRrTLcLiQ?usp=sharing,
 Dog On Frozen Lake,Image,IceSkating,,IceSkating/Photo_dogOnFrozenLake_2017.jpeg,https://drive.google.com/drive/folders/1jzH3Zu88RrfriOQit_1rJRicRrTLcLiQ?usp=sharing,
-1880 Oedipus On Colonnus ,Image,KaiserWilhelmGymnasium,,KaiserWilhelmGymnasium/1880_Hertel_OedipusOnColonnus.png,https://drive.google.com/drive/folders/1O0NI7r1Oz05GnAvADmYVOot1YU6Q7AWO?usp=sharing,
+1880 Oedipus On Colonnus,Image,KaiserWilhelmGymnasium,,KaiserWilhelmGymnasium/1880_Hertel_OedipusOnColonnus.png,https://drive.google.com/drive/folders/1O0NI7r1Oz05GnAvADmYVOot1YU6Q7AWO?usp=sharing,
 Audio Guide to the Park,Link,Lectures,,Lectures/AudioGuide_Tiergarten_Wowo.webloc,https://drive.google.com/drive/folders/1SECtr6-H0RcSdMoO6f7TM6RNqU8bCM7L?usp=sharing,
 Bartoli - Tiergarten Landscape Transgression,Link,Lectures,,Lectures/SandraBartoli_TiergartenLandscapeTransgression.webloc,https://drive.google.com/drive/folders/1SECtr6-H0RcSdMoO6f7TM6RNqU8bCM7L?usp=sharing,
 Berlin Love Parade 2006 - Photo,Image,LGBTQEvents,,LGBTQEvents/2006_BerlinLoveParade.png,https://drive.google.com/drive/folders/1Lc1zDLyVk_MJ9dX6u8yAQFrzl0EBwl2L?usp=sharing,
@@ -118,7 +118,7 @@ Reagan - Speech at the Brandenburg Gate,Link,Political,,Political/1987_Reagan_Sp
 Green Area Speech 1997,Link,Political,,Political/1997_GreenAreaAct_Grünanlagengesetz.webloc,https://drive.google.com/drive/folders/1Z21RTl5jarKgJDfSS8N1LEvZmvUYW_5P?usp=sharing,
 Siegesaule,Image,Photographs,,Photographs/1024px-Berlijn_tiergarten_siegesaule.jpeg,https://drive.google.com/drive/folders/1y2OGEFpwysf1iohXi3qwln1qWrFUS-Af?usp=sharing,
 In den Zelten,Image,Photographs,,Photographs/1920px-Berlin_In_den_Zelten.jpeg,https://drive.google.com/drive/folders/1y2OGEFpwysf1iohXi3qwln1qWrFUS-Af?usp=sharing,
-Siegessäule 1884 ,Image,Photographs,,Photographs/1920px-Berlin_stadtansicht_von_siegessäule_vor_1884.jpeg,https://drive.google.com/drive/folders/1y2OGEFpwysf1iohXi3qwln1qWrFUS-Af?usp=sharing,
+Siegessäule 1884,Image,Photographs,,Photographs/1920px-Berlin_stadtansicht_von_siegessäule_vor_1884.jpeg,https://drive.google.com/drive/folders/1y2OGEFpwysf1iohXi3qwln1qWrFUS-Af?usp=sharing,
 Tiergarten Photo,Image,Photographs,,Photographs/1920px-Berlin_Tiergarten2.jpeg,https://drive.google.com/drive/folders/1y2OGEFpwysf1iohXi3qwln1qWrFUS-Af?usp=sharing,
 Tiergarten Photo,Image,Photographs,,Photographs/1920px-Berlin_Tiergarten4.jpeg,https://drive.google.com/drive/folders/1y2OGEFpwysf1iohXi3qwln1qWrFUS-Af?usp=sharing,
 Tiergarten Photo,Image,Photographs,,Photographs/1920px-Bln_Tiergtn8.jpeg,https://drive.google.com/drive/folders/1y2OGEFpwysf1iohXi3qwln1qWrFUS-Af?usp=sharing,
@@ -207,7 +207,7 @@ Dachsunds Carriage,Image,Visitors,,Visitors/DachsundsCarriage_2900.jpeg,https://
 Woman in Coat 1921,Image,Visitors,,Visitors/1921_Bresser_PhotographofWomaninCoat.jpeg,https://drive.google.com/drive/folders/1DgbeOr0uabMPNaLdhxBQxnMC4a02tbkm?usp=sharing,
 Corinth 1920,Image,Waterways,,Waterways/Corinth_ViewoftheTiergarten_1920.png,https://drive.google.com/drive/folders/1CDmDNLS8mRHGZXEsgqqKqGBR7qIPtr7W?usp=sharing,
 Corinth 1908,Image,Waterways,,Waterways/Corinth_DerNeueSeeimBerlinerTiergarten_1908.jpeg,https://drive.google.com/drive/folders/1CDmDNLS8mRHGZXEsgqqKqGBR7qIPtr7W?usp=sharing,
-Corinth Zoo 1920 ,Image,Waterways,,Waterways/Corinth_At the Zoo_1920.jpeg,https://drive.google.com/drive/folders/1CDmDNLS8mRHGZXEsgqqKqGBR7qIPtr7W?usp=sharing,
+Corinth Zoo 1920,Image,Waterways,,Waterways/Corinth_At the Zoo_1920.jpeg,https://drive.google.com/drive/folders/1CDmDNLS8mRHGZXEsgqqKqGBR7qIPtr7W?usp=sharing,
 Paulvorgang 1896,Image,Waterways,,Waterways/1896_Paulvorgang_AutumnEvening.jpeg,https://drive.google.com/drive/folders/1CDmDNLS8mRHGZXEsgqqKqGBR7qIPtr7W?usp=sharing,
 WWII Aftermath 1949,Image,WWII,,WWII/PressPhotograph_AerialTiergartenDestruction_1949.jpeg,https://drive.google.com/drive/folders/1QkfCYFseOxzOA659gJylHQDHSABIx0OS?usp=sharing,
 Zoo Rubble 1945,Image,Zoo,,Zoo/zooRubble1945.jpg,https://drive.google.com/drive/folders/1HiMX7DO64AdwN8_UrNJjGjbx84CKzHqT?usp=sharing,

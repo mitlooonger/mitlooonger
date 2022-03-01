@@ -9,19 +9,32 @@ layout: default
    {%include collecttags.html%}
 {%endif%} -->
 
+
 <body>
 {% for row in site.data.data %}
   <div class="gallery">
-  <a target="_blank" href="_images/archive/foldername/filename.jpeg">
-    <img src="_images/archive/Contemporary_Art/Christo_WrappedReichstag_1993.jpg" 
-    alt="Cinque Terre" width="600" height="400">
+  <a target="_blank" href="_images/archive/foldername/filename.ext">
+    <img src="{{row.RelativePath}}"
+    alt="_images/" width="600" height="400">
   </a>
-  <div class="desc">"{{row.Object}}"</div>
+  <div class="desc">"{{row.Title}}"</div>
+</div>
+{% endfor %} 
+  
+
+<!--TEST linking images -- didnt work:( <body>
+{% for row in site.data.data %}
+  <div class="gallery">
+  <a target="_blank" href="_images/archive/foldername/filename.ext">
+    <img src="_images/archive/" 
+    alt="_images/" width="600" height="400">
+  </a>
+  <div class="desc">"{{row.Title}}"</div>
     
   </div>
 {% endfor %}
 
-<!-- 
+
 <div class="gallery">
   <a target="_blank" href="img_5terre.jpg">
     <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">

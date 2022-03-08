@@ -129,13 +129,35 @@ Grid images test
 
 }	*/
 
+footer{
+	float: left;
+}
+body{
+	background-color: black;
+
+}
+div.section_end{
+	float:left;
+	width: 100%;
+	height: 50px;
+}
 div.gallery {
   margin: 10px;
   border: 1px solid #e1f7e4;
   float: left;
-  width: 280px;
+  width: 100px;
 }
 
+.img_tg{
+  position: relative;
+  width: 100px;
+}
+div.gallery_link {
+	margin: 10px;
+	border: 1px solid #e1f7e4;
+	float: left;
+	width: 100px;
+  }
 div.gallery:hover {
   border: 40px solid #e1f7e4;
 }
@@ -149,6 +171,13 @@ div.desc {
   padding: 20px;
   text-align: center;
 }
+
+div.pile {
+	color:#184d23;
+	padding: 20px;
+	text-align: center;
+  }
+  
 
 div.adriana {
 	background-color: #e1f7e4;

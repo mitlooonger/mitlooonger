@@ -27,11 +27,12 @@ url: "/mitlooonger" # the base hostname & protocol for your site, e.g. http://ex
 instagram_username: looong.er
 github_username:  mitlooonger
 
-# Build settings
-remote_theme: jirrian/jekyll-theme-image-grid@main
 plugins:
   - jekyll-feed
   - post_generator
+
+
+theme: minimal-mistakes-jekyll
 
 # settings for image grid homepage
 grid_settings:
@@ -43,6 +44,7 @@ post_settings:
   show_title: true #true - shows title of post (post filename or title in front matter of post file), false - does not show title of post. this settings can be overwritten in the frontmatter of individual post files with the show_title variable.
   show_date: false #true - shows date of post (from post filename), false - does not show date of post
 
+color_scheme: dark
 include:
   - _images
 
